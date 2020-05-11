@@ -1,0 +1,15 @@
+{
+  "name": "ronniewhiteofficial",
+  "version": "1.0.0",
+  "description": "Ronnie White official website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bovas85/ronniewhiteofficial.git"
+  },
+  "author": "Alessandro Giordo <info@moustachedesign.xyz>",
+  "license": "MIT"
+}
