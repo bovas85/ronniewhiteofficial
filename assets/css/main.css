@@ -55,17 +55,26 @@ canvas,
 progress,
 video {
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: -100;
-	transform: translateX(-50%) translateY(-50%);
-	background: url('assets/img/ronnie.jpg') no-repeat;
-	background-size: cover;
-	transition: 1s opacity;
+    top: 47%;
+    left: 55%;
+    min-width: 50%;
+    min-height: 50%;
+    width: 95vw;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url(assets/img/ronnie.jpg) no-repeat;
+    background-size: contain;
+    transition: 1s opacity;
+}
+
+@media (max-width: 1490px) {
+	video {
+		top: 50%;
+		left: 50%;
+		background-size: contain;
+		width: auto;
+	}
 }
 
 /**
