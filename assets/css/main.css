@@ -63,7 +63,7 @@ video {
   height: auto;
   z-index: -100;
   transform: translateX(-50%) translateY(-50%);
-  background: url(/assets/img/ronnie.jpg) no-repeat;
+  background: url(/assets/img/video-bg.jpg) no-repeat;
   background-position: bottom;
   background-size: cover;
   transition: 1s opacity;
